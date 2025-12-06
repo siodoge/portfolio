@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simon Stone Portfolio</title>
+  <title>Simon Stone | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,11 @@
     <div class="nav-container">
       <div class="logo">Simon Stone</div>
       <ul class="nav-links">
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#capstone">Capstone</a></li>
+        <li><a href="#ux-case-study">UX Case Study</a></li>
+        <li><a href="#videography">Videography</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -20,42 +24,210 @@
     <div class="header-content">
       <img src="images/profilereal.png" alt="Profile Picture" class="profile-pic">
       <div class="intro-text">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Designer • Developer • Creator</p>
+        <h1>Visual Designer & UX Researcher</h1>
+        <p>Blending UI, research, and storytelling to design clear, honest digital experiences.</p>
       </div>
     </div>
   </header>
 
   <section id="about" class="container">
-    <h2>About Me</h2>
-    <p>Hello! I’m Simon Stone, a passionate visual designer focused on making clean and functional digital experiences. This is my portfolio website where I showcase my projects and skills.</p>
+    <div class="section-header">
+      <h2>About Me</h2>
+      <p class="section-tagline">Designer • Researcher • Videographer</p>
+    </div>
+    <p class="about-text">
+      I'm Simon Stone, a visual designer and UX-focused student at James Madison University. 
+      My work spans interface design, user research with tools like eye-tracking, and 
+      promotional videography for real-world clients.
+    </p>
   </section>
 
-  <section id="portfolio" class="container">
-    <h2>My Work</h2>
+  <section id="capstone" class="container">
+    <div class="section-header">
+      <h2>Capstone Website Redesign</h2>
+      <p class="section-tagline">Team-based UX/UI and front‑end implementation</p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-main">
+        <h3>Redesigning an Expedition Service's Online Presence</h3>
+        <p>
+          As part of a cross‑disciplinary CIS/SMAD team at JMU, I helped redesign an expedition 
+          service's website to improve clarity, trust, and booking confidence for new visitors.
+        </p>
+        <ul class="pill-list">
+          <li>Information architecture & page layout</li>
+          <li>Visual design system & components</li>
+          <li>Responsive front‑end implementation</li>
+        </ul>
+        <a 
+          class="primary-button"
+          href="https://captsone-project-main-prototype-weddincb.replit.app"
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          View Live Prototype
+        </a>
+      </div>
+
+      <div class="feature-side">
+        <div class="meta-card">
+          <h4>My Role</h4>
+          <p>Visual design, interaction design, and front‑end development within a small product team.</p>
+        </div>
+        <div class="meta-card">
+          <h4>Goals</h4>
+          <p>Make trip options easier to compare, clarify safety and logistics, and modernize the brand's visual identity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ux-case-study" class="container alt">
+    <div class="section-header">
+      <h2>UX Case Study: AI Content Labels</h2>
+      <p class="section-tagline">Eye‑tracking, think‑aloud protocols, and interviews</p>
+    </div>
+
+    <div class="case-grid">
+      <div class="case-main">
+        <h3>How Users Notice and Trust AI Labels</h3>
+        <p>
+          For a research study at JMU, my teammate and I explored how short‑form video users perceive 
+          and engage with warning labels on AI‑generated content using Tobii eye‑tracking, 
+          think-aloud sessions, and semi‑structured interviews.[file:2]
+        </p>
+        <p>
+          We found that labels are often missed unless they are high‑contrast and placed near captions 
+          or usernames, and that skepticism toward AI can reduce engagement even when labels are clear.[file:2]
+        </p>
+
+        <ul class="bullet-list">
+          <li>Planned and ran lab sessions with 4 college‑aged participants</li>
+          <li>Configured Tobii eye‑tracking hardware and calibration flows</li>
+          <li>Analyzed gaze patterns, interview transcripts, and engagement behavior</li>
+          <li>Proposed design guidelines for more visible, intuitive AI labels</li>
+        </ul>
+
+        <a 
+          class="secondary-button"
+          href="ai-labeling-user-research-case-study.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Full Research PDF
+        </a>
+      </div>
+
+      <div class="case-side">
+        <div class="meta-card">
+          <h4>Methods</h4>
+          <p>Eye‑tracking, think‑aloud, semi‑structured interviews, participant recruiting, and synthesis.[file:2]</p>
+        </div>
+        <div class="meta-card">
+          <h4>Key Insight</h4>
+          <p>"Better" labels are those aligned with natural viewing patterns—not just accurate wording.[file:2]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="videography" class="container">
+    <div class="section-header">
+      <h2>Promotional Videography</h2>
+      <p class="section-tagline">Augusta Airsoft gameplay and field promotion</p>
+    </div>
+
     <div class="gallery">
-      <div class="project-card">
-        <img src="images/placeholder1.jpg" alt="experience">
-        <h3>Videography</h3>
-        <p>Promotional Video Creator for a local airsoft field.</p>
+      <article class="project-card wide">
+        <div class="project-body">
+          <h3>Augusta Airsoft Promotional Videos</h3>
+          <p>
+            For three years, I created gameplay and promotional videos for Augusta Airsoft in Stuarts Draft, 
+            helping the field showcase events, gameplay, and the on‑field experience.[file:1]
+          </p>
+          <ul class="bullet-list">
+            <li>Shot and edited fast‑paced gameplay footage</li>
+            <li>Balanced clarity of action with immersive pacing</li>
+            <li>Collaborated with field staff on content ideas and schedule</li>
+          </ul>
+          <a 
+            class="primary-button"
+            href="https://www.facebook.com/AugustaAirsoftSV/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Videos on Facebook
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="resume" class="container alt">
+    <div class="section-header">
+      <h2>Resume & Experience</h2>
+      <p class="section-tagline">Supporting roles, service work, and education</p>
+    </div>
+
+    <div class="resume-grid">
+      <div class="resume-column">
+        <h3>Selected Experience</h3>
+        <ul class="resume-list">
+          <li>
+            <strong>Video Editor & Game Referee</strong>, Augusta Airsoft  
+            <span class="resume-meta">Stuarts Draft, VA · 2015–2018</span><br>
+            Created promotional gameplay videos and supported live games as on‑field staff.[file:1]
+          </li>
+          <li>
+            <strong>Standardized Patient</strong>, UVA Medical Center  
+            <span class="resume-meta">Charlottesville, VA · 2013–2014</span><br>
+            Played a pediatric muscular dystrophy patient and provided structured feedback to medical and nursing students on their interviewing skills.[file:1]
+          </li>
+          <li>
+            <strong>Volunteer</strong>, The Free Book Bus  
+            <span class="resume-meta">Charlottesville, VA · 2022–Present</span><br>
+            Supported a non‑profit delivering books and school supplies to children in low‑income communities.[file:1]
+          </li>
+        </ul>
       </div>
-      <div class="project-card">
-        <img src="images/placeholder2.jpg" alt="experience">
-        <h3>UX/UI</h3>
-        <p>Website designer and developer.</p>
-      </div>
-      <div class="project-card">
-        <img src="images/placeholder3.jpg" alt="experience">
-        <h3>User Research</h3>
-        <p>Experience conducting interviews for product feedback.</p>
+
+      <div class="resume-column">
+        <h3>Education</h3>
+        <ul class="resume-list">
+          <li>
+            <strong>James Madison University</strong> · Harrisonburg, VA  
+            <span class="resume-meta">2021–Present</span><br>
+            Full‑time student with coursework spanning visual design, UX, and media production.[file:1]
+          </li>
+          <li>
+            <strong>Piedmont Virginia Community College</strong> · Dual Enrollment  
+            <span class="resume-meta">2018–2020</span><br>
+            Completed high school requirements while earning college credits.[file:1]
+          </li>
+        </ul>
+
+        <a 
+          class="secondary-button"
+          href="simon-stone-resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download Full Resume
+        </a>
       </div>
     </div>
   </section>
 
   <section id="contact" class="container">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:simonhstone@yahoo.com">simonhstone@yahoo.com</a></p>
-    <p>Phone: 434-806-3708</p>
+    <div class="section-header">
+      <h2>Contact</h2>
+      <p class="section-tagline">Always open to collaboration and feedback</p>
+    </div>
+    <p class="contact-text">
+      Email: <a href="mailto:simonhstone@yahoo.com">simonhstone@yahoo.com</a><br>
+      Phone: 434-806-3708
+    </p>
   </section>
 
   <footer>
@@ -63,3 +235,4 @@
   </footer>
 </body>
 </html>
+
